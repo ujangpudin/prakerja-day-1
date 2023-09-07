@@ -2,6 +2,7 @@ package main
 
 import (
 	"fmt"
+	"prakerja/helper"
 )
 
 func isPrime(num int) bool {
@@ -23,4 +24,5 @@ func main() {
             fmt.Println(i)
         }
     }
+    helper.Square()
 }
